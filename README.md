@@ -1,4 +1,9 @@
-# RizzScript Support
+![pixelcut-export (1)](https://github.com/user-attachments/assets/3afe1e6d-9f4f-4a14-ad89-ea63a3a453c1)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/zekkie.rizzscript-support%09)  ![GitHub License](https://img.shields.io/github/license/zekticezy/RizzScriptVSC)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/zekkie.rizzscript-support%09) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zekticezy/RizzScriptVSC)
+
+
+-----
 
 ## Overview
 RizzScript Support is a Visual Studio Code extension that provides syntax highlighting and basic support for the RizzScript programming language, designed for those who want to want to make their Python experience worse.
