@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "RizzScript",
+    "scopeName": "source.rizzscript",
+    "patterns": [
+        {
+            "include": "#keywords"
+        },
+        {
+            "include": "#strings"
+        }
+    ],
+    "repository": {
+        "keywords": {
+            "patterns": [
+                {
+                    "name": "keyword.control.rizzscript",
+                    "match": "\\b(if|while|for|return|skibidi|sigma|cooked|hawktuah|cap|ongod|bet|cook|ohio|diddy|goofy|ahh|gronk|rizz|opium|pluh|ratio|phonk)\\b"
+                }
+            ]
+        },
+        "strings": {
+            "name": "string.quoted.double.rizzscript",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.rizzscript",
+                    "match": "\\\\."
+                }
+            ]
+        }
+    }
+}

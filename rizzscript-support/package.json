@@ -1,0 +1,37 @@
+{
+  "name": "rizzscript-support",
+  "displayName": "RizzScript Support",
+  "description": "Support for zekkie's RizzScript language.",
+  "publisher": "zekkie",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "rizzscript",
+      "aliases": ["RizzScript", "rizzscript"],
+      "extensions": [".rizz", ".rizzscript"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "rizzscript",
+      "scopeName": "source.rizzscript",
+      "path": "./syntaxes/rizzscript.tmLanguage.json"
+    }],
+    "themes": [{
+      "label": "RizzScript Color Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/rizzscript-color-theme.json"
+    }]
+  },
+  "icon": "icons/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zekticezy/RizzScriptVSC.git"
+  },
+  "license": "MIT"
+}

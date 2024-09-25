@@ -1,0 +1,51 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "RizzScript Color Theme",
+    "type": "dark",
+    "colors": {
+        "editor.foreground": "#FFFFFF",
+        "editor.background": "#1E1E1E",
+        "editorLineNumber.foreground": "#008800"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "keyword.control.rizzscript",
+                "keyword.control.rizzscript.def",
+                "keyword.control.rizzscript.if",
+                "keyword.control.rizzscript.while",
+                "keyword.control.rizzscript.for",
+                "keyword.control.rizzscript.return",
+                "keyword.control.rizzscript.true",
+                "keyword.control.rizzscript.false",
+                "keyword.control.rizzscript.skibidi",
+                "keyword.control.rizzscript.sigma",
+                "keyword.control.rizzscript.cooked",
+                "keyword.control.rizzscript.hawktuah",
+                "keyword.control.rizzscript.cap",
+                "keyword.control.rizzscript.ongod",
+                "keyword.control.rizzscript.bet",
+                "keyword.control.rizzscript.cook",
+                "keyword.control.rizzscript.ohio",
+                "keyword.control.rizzscript.diddy",
+                "keyword.control.rizzscript.goofy",
+                "keyword.control.rizzscript.ahh",
+                "keyword.control.rizzscript.gronk",
+                "keyword.control.rizzscript.rizz",
+                "keyword.control.rizzscript.opium",
+                "keyword.control.rizzscript.pluh",
+                "keyword.control.rizzscript.ratio",
+                "keyword.control.rizzscript.phonk"
+            ],
+            "settings": {
+                "foreground": "#569CD6" // Color for RizzScript keywords
+            }
+        },
+        {
+            "scope": "string.quoted.double.rizzscript",
+            "settings": {
+                "foreground": "#CE9178" // Color for strings
+            }
+        }
+    ]
+}
